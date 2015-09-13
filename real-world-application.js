@@ -58,6 +58,14 @@ var crayola1990 = [
 	'Antique Brass'
 ];
 
+var crayolaFinal = [];
+for (i=0; i<crayola1990.length; i++){
+     var lowercaseIndex = crayola1990[i].toLowerCase();
+     lowercaseIndex = lowercaseIndex.replace(/ /g, "-");
+	 crayolaFinal.push(x);
+}
+console.log(crayolaFinal);
+
 //create a loop that will iterate over each item in the array and then use the String methods to modify the value at the current position in the array
 
 /***** HINTS *******
@@ -65,3 +73,4 @@ var crayola1990 = [
  * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
  * there are multiple ways to do something like this but you might consider using split and join
  */ 
+ 
